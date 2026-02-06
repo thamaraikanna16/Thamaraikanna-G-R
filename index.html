@@ -186,6 +186,29 @@
         </div>
     </footer>
 
+    <!-- Chat Assistant UI -->
+    <div id="chat-widget">
+        <button id="chat-toggle-btn" class="chat-toggle-btn" aria-label="Toggle Chat Assistant">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chat-container hidden" id="chat-container">
+            <div class="chat-header">
+                <h3><i class="fas fa-robot"></i> Assistant</h3>
+                <button id="chat-close-btn" aria-label="Close Chat"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <div class="message bot-message">
+                    <p>Hello! I'm Thamaraikanna's AI Assistant. Ask me anything about his projects, skills, or
+                        experience!</p>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Ask about projects, skills..." autocomplete="off">
+                <button id="chat-send-btn" aria-label="Send Message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
